@@ -1,0 +1,62 @@
+.nav-link.active {
+    color: #f8d847; /* Un galben subtil pentru contrast */
+    border-bottom: 2px solid #C8B568; /* Linie sub linkul activ */
+}
+
+.nav-link:hover {
+    color: #ffd700; /* O nuanță de galben aurie */
+    transition: color 0.3s ease;
+  }
+  
+.img-fluid {
+    width: 80%; 
+    height: auto; 
+    border-radius: 15px; /* Colțuri mai rotunjite */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#about {
+    background-color: #212529; /* Culoare fundal similară cu bg-dark */
+    color: white; /* Text alb */
+    padding: 50px 0; /* Spațiu vertical (padding sus și jos) */
+}
+
+#about h2 {
+    color: white; 
+    font-size: 2rem; 
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #dcdcdc; 
+    font-size: 1.1rem; 
+    line-height: 1.6;
+}
+
+.nav-link:hover {
+    color: #f8d847; /* Schimbă culoarea la hover */
+    transition: color 0.3s ease-in-out; /* Tranziție lină */
+}
+
+img.img-fluid:hover {
+    transform: scale(1.05); /* Zoom ușor la hover */
+    transition: transform 0.3s ease-in-out; /* Tranziție lină */
+}
+
+.progress-bar:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-img-top {
+    border-radius: 23px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
