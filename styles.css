@@ -60,3 +60,44 @@ img.img-fluid:hover {
     background-color: #0056b3;
 }
 
+#skills h2, #projects h2 {
+    color: white; /* Setează textul alb doar pentru aceste titluri */
+}
+
+h5 {
+    color: white !important;
+}
+
+#contact {
+    background-color: #212529; /* Fundal întunecat, similar cu restul paginii */
+    color: white;
+  }
+  
+  #contact h2 {
+    color: white;
+  }
+  
+  #contact p {
+    color: #dcdcdc;
+  }
+  
+  #contact .form-control {
+    background-color: #1c1c1c;
+    color: white;
+    border: 1px solid #333;
+  }
+  
+  #contact .form-control:focus {
+    border-color: #f8d847;
+    box-shadow: 0 0 5px rgba(248, 216, 71, 0.5);
+  }
+  
+  #contact .btn-primary {
+    background-color: #f8d847;
+    border: none;
+  }
+  
+  #contact .btn-primary:hover {
+    background-color: #ffd700;
+  }
+  
